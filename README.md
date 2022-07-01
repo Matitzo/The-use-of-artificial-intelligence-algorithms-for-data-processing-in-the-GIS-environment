@@ -15,8 +15,9 @@ To donwload the orthophotos (aerial or satellite photographs wich defined positi
 To collect training samples of graves from images I used ArcGIS Pro. Their total number was 2353. The samples had to be various: small graves, big graves, in different colors, shaded and not shaded etc. 
 
 ## Training deep learning model:
-This proces was also made in ArcGIS Pro using Python and ArcGIS library: arcpy (code on page 42). As deep learning model I used Mask-RCNN because it allows to get the localistaion and shape (poligon) of every object.
+This proces was also made in ArcGIS Pro using Python and ArcGIS library: arcpy (code on page 42). As deep learning model I used Mask-RCNN because it allows to get the localistaion and shape (poligon) of every detected object.
 
+Loss function:
 
-
-## Results:
+## Object detection:
+In this stage like previously I used ArcGIS Pro and Python (code on page 49). 
