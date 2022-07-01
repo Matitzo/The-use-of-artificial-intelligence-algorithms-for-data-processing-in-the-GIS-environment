@@ -9,6 +9,7 @@ The main goal was to create a deep learning model for grave detection in cemeter
 - QGIS
 
 ## Preparing the data:
+To donwload the orthophotos (aerial or satellite photographs wich defined position) first I donwloaded BUCM layer from the Internet (.shp files with defined postions of cemeteries) for Wielkopolska. Then I used their postions to donwload orthophotos for evey cemetery in Wielkopolska using QGIS.
 
 ## Training data:
 
