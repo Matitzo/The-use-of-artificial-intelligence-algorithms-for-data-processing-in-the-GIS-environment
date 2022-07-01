@@ -24,4 +24,7 @@ In this stage like previously I used ArcGIS Pro and Python (code on page 49). Bu
 
 ## Results:
 Firstly model was tested on a cementary in a village Grochowy. The precision score (the ratio of correct indications to all indications) was 96.9%. The recall score (the ratio of correct indications to the total number of objects that should be indicated) was 96.2%. 
-Next model was used on 100 cemeteries in Wielkopolska (this process was made in Python). Depending of the cementery precision score and recall score were different. Differ results are caused by for example: different resolutions of orthophotos, insolation intensity and coverage of the cemeteries with trees which cover up graves. Most cemeteries get recall score around 70%, in some cases this score was near to 100%
+
+![image](https://user-images.githubusercontent.com/100380604/176911425-e3a98f3f-84f3-456a-9b7c-2cf442fefba8.png)
+
+After that model was used on 100 cemeteries in Wielkopolska (this process was made in Python). Depending of the cementery precision score and recall score were different. Differ results are caused by for example: different resolutions of orthophotos, insolation intensity and coverage of the cemeteries with trees which cover up graves. Most cemeteries get recall score around 70%, in some cases this score was near to 100%
