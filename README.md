@@ -17,7 +17,8 @@ To collect training samples of graves from images I used ArcGIS Pro. Their total
 ## Training deep learning model:
 This proces was also made in ArcGIS Pro using Python and ArcGIS library: arcpy (code on page 42). As deep learning model I used Mask-RCNN because it allows to get the localistaion and shape (poligon) of every detected object.
 
-Avarage precision of trained model: 46.1% (it's not hight but it was enough to get good results)
+Avarage precision of trained model: 46.1% (it's not hight but it was enough to get good results).
+
 Loss function:
 
 ![image](https://user-images.githubusercontent.com/100380604/176911671-a51357f7-3240-448f-bc99-5eec7235e8aa.png)
