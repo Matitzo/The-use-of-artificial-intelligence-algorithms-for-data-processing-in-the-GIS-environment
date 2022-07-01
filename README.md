@@ -9,7 +9,7 @@ The main goal was to create a deep learning model for grave detection in cemeter
 - QGIS
 
 ## Preparing the data:
-To donwload the orthophotos (aerial or satellite photographs wich defined position) first I donwloaded BUCM layer from the Internet (.shp files with defined postions of cemeteries) for Wielkopolska. Then I used their postions to donwload orthophotos for evey cemetery in Wielkopolska using QGIS.
+To donwload the orthophotos (aerial or satellite photographs wich defined position) first I donwloaded BUCM layer from the Internet (.shp files with defined postions of cemeteries) for Wielkopolska. Then I used their postions to donwload orthophotos for evey cemetery in Wielkopolska using QGIS. To this project I used ortophoto with resolution from 5 to 10 cm beacuse of big coverage of Poland.
  
 ## Training data:
 To collect training samples of graves from images I used ArcGIS Pro. Their total number was 2353. The samples had to be various: small graves, big graves, in different colors, shaded and not shaded etc. 
@@ -23,4 +23,5 @@ Loss function:
 In this stage like previously I used ArcGIS Pro and Python (code on page 49). But before I run this process on orthophotos I used again BUCM layer to clip orthophotos to the area of cemeteries (also using python in ArcGIS Pro), this allowed to shorten the time of object detection and reduced the likelihood of wrong detections. 
 
 ## Results:
-
+Firstly model was tested on a cementary in a village Grochowy. The precision score (the ratio of correct indications to all indications) was 96.9%. The recall score (the ratio of correct indications to the total number of objects that should be indicated) was 96.2%. 
+Next model was used on 100 cemeteries in Wielkopolska (this process was made in Python). Depending of the cementery precision score and recall score were different. The results   
