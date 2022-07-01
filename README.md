@@ -20,4 +20,7 @@ This proces was also made in ArcGIS Pro using Python and ArcGIS library: arcpy (
 Loss function:
 
 ## Object detection:
-In this stage like previously I used ArcGIS Pro and Python (code on page 49). But before I run this process on orthophotos I used again BUCM layer to clip orthophotos to the area of cemeteries, this allowed to shorten the time of object detection and reduced the likelihood of wrong detections. 
+In this stage like previously I used ArcGIS Pro and Python (code on page 49). But before I run this process on orthophotos I used again BUCM layer to clip orthophotos to the area of cemeteries (also using python in ArcGIS Pro), this allowed to shorten the time of object detection and reduced the likelihood of wrong detections. 
+
+## Results:
+
